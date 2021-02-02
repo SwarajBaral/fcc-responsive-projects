@@ -1,0 +1,103 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	/* outline: 2px solid red; */
+}
+
+body {
+	/* Native font stack https://getbootstrap.com/docs/4.2/content/reboot/#native-font-stack */
+  	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Helvetica Neue', Arial, sans-serif;
+	font-size: 10px;
+	/* font-family: sans-serif; */
+}
+#main{
+	background-color: mediumseagreen;
+	font-size: 1.2rem;
+	text-align: center;
+	line-height: 1.5;
+	color: white;
+}
+
+#title{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: 800;
+	font-size: 2.75rem;
+	padding: 1rem 0;
+	padding-bottom: 0.5rem;
+}
+
+#title-desc{
+	font-weight: bold;
+}
+
+#img-div{
+	padding: 2em;
+	padding-bottom: 1em;
+	background: white;
+	margin: 0.75em 0;
+	/* box-shadow: 0px 0px 16px 5px black; */
+}
+
+#image{
+	display: block;
+	height: auto;
+	max-width: 100%;
+	margin: 0 auto;
+
+	box-shadow: 0px 0px 10px black;
+}
+
+#img-caption{
+	font-size: 1rem;
+	margin-top: 1em;
+	color: darkslategray;
+}
+
+#tribute-info{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding:  1em;
+	font-size: 1.2rem;
+}
+
+#tribute-info h2{
+	margin-bottom: 1em;
+}
+blockquote{
+	font-style: italic;
+	margin: 2em;
+}
+footer{
+	color: black;
+	padding: 1em;
+	font-weight: bold;
+}
+@media (min-width: 460px){
+	#title{
+		color: white;
+		font-size: 3.5rem;
+		margin-bottom: 0;
+	}
+	#img-div{
+		margin-top: 2rem;
+	}
+	#img-caption{
+		font-weight: 600;
+	}
+	#tribute-info{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: justify;	
+	}
+	#tribute-info p{
+		width: 70%;
+	}
+}
