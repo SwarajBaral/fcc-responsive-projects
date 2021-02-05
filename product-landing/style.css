@@ -125,11 +125,11 @@ section{
 .icon{
 	display: flex;
 	padding: 0 2em;
-	justify-content: center;
 	align-items: center;
+	justify-content: space-between;
 }
 .icon i{
-	margin-right: 1.125em;
+	margin-right: 2em;
 	width: 15px;
 }
 #how-it-works{
@@ -193,7 +193,7 @@ section{
 	width: 80%;
 	font-size: 1rem;
 	height: 2.5em;
-	font-weight: bold;
+	font-weight: ;
 	background: none;
 	outline: none;
 	border: 2px solid black;
